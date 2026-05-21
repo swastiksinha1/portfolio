@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-kanit: "Kanit", sans-serif;
+}
+
+:root {
+  --hero-color-1: #1E293B;
+  --hero-color-2: #B600A8;
+  --hero-color-3: #7621B0;
+  --hero-color-4: #1E293B;
+  --bg-primary: #FAFAFA;
+  --text-primary: #0F172A;
+}
+
+.dark {
+  --hero-color-1: #D7E2EA;
+  --hero-color-2: #B600A8;
+  --hero-color-3: #7621B0;
+  --hero-color-4: #D7E2EA;
+  --bg-primary: #0C0C0C;
+  --text-primary: #D7E2EA;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-kanit);
+  overflow-x: clip;
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Removed .theme-transition wildcard block for better performance */
+
+.hero-heading {
+  background: linear-gradient(
+    to right, 
+    var(--hero-color-1) 20%, 
+    var(--hero-color-2) 40%, 
+    var(--hero-color-3) 60%, 
+    var(--hero-color-1) 80%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textShine 4s linear infinite;
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200% center;
+  }
+}
