@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 export const FadeIn = ({ children, delay = 0, x = 0, y = 30, duration = 0.5, className = "" }: any) => (

@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from 'react';
-import { flushSync } from 'react-dom';
+
 
 type Theme = 'dark' | 'light';
 

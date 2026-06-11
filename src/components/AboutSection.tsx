@@ -1,4 +1,4 @@
-import { FadeIn, ContactButton } from './Reusable';
+import { FadeIn } from './Reusable';
 
 export default function AboutSection() {
   return (

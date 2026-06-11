@@ -9,7 +9,7 @@ import GithubSection from './components/GithubSection';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import FloatingResumeButton from './components/FloatingResumeButton';
-import { ThemeProvider, useTheme } from './ThemeContext';
+import { ThemeProvider } from './ThemeContext';
 
 function AppContent() {
   
