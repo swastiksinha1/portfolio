@@ -12,6 +12,15 @@ const projects = [
   },
   {
     id: "02",
+    name: "AI Career Copilot",
+    category: "AI Web App",
+    description: "An AI-powered career assistant built with Next.js providing personalized dashboards, resume analysis, and cover letter generation.",
+    image: "/ai_carrer_copilot.png",
+    github: "https://github.com/swastiksinha1/ai-career-copilot",
+    live: "https://ai-careercopilot.vercel.app/"
+  },
+  {
+    id: "03",
     name: "Fake Review Detector",
     category: "AI / ML Dashboard",
     description: "An intelligent system utilizing advanced ML algorithms to analyze text sentiment and flag fraudulent reviews.",
@@ -20,7 +29,7 @@ const projects = [
     live: "https://fake-review-detectors.streamlit.app/"
   },
   {
-    id: "03",
+    id: "04",
     name: "CCRM",
     category: "Enterprise Software",
     description: "A comprehensive Customer Relationship Management platform designed with a clean, modern UI for maximum productivity.",
@@ -29,7 +38,7 @@ const projects = [
     live: null
   },
   {
-    id: "04",
+    id: "05",
     name: "BridgeFi",
     category: "AI Recruitment Intelligence",
     description: "A dual-sided intelligence platform for skill-gap bridging, ghosting prevention & personal career analytics using Anthropic Claude API, Python, and Flask.",
@@ -38,7 +47,7 @@ const projects = [
     live: "https://bridgefi-gen-ai.vercel.app"
   },
   {
-    id: "05",
+    id: "06",
     name: "OSS Audit — VLC",
     category: "Linux / Bash Scripts",
     description: "A robust capstone project featuring five shell scripts auditing VLC Media Player's origin, philosophy, FOSS ecosystem, and Linux footprint.",
