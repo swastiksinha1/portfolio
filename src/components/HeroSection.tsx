@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FadeIn, ContactButton } from './Reusable';
 import { useTheme } from '../ThemeContext';
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/profile.png';
 
 export default function HeroSection() {
   const { theme, toggleTheme } = useTheme();
