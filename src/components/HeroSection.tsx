@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FadeIn, ContactButton } from './Reusable';
 import { useTheme } from '../ThemeContext';
+import profilePic from '../assets/profile.jpg';
 
 export default function HeroSection() {
   const { theme, toggleTheme } = useTheme();
@@ -125,7 +126,7 @@ export default function HeroSection() {
               {/* Main Avatar Container */}
               <div className="relative w-[280px] h-[280px] sm:w-[340px] sm:h-[340px] lg:w-[380px] lg:h-[380px] rounded-full overflow-hidden border-[4px] border-white dark:border-[#1A1A1A] shadow-[0_10px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_15px_40px_rgba(0,0,0,0.4)] group-hover:shadow-[0_0_40px_rgba(182,0,168,0.3)] transition-transform duration-500 group-hover:scale-105 group-hover:rotate-2 transform-gpu will-change-transform">
                 <img 
-                  src="https://drive.google.com/uc?export=view&id=1KSXeXBirfCav-CT5CCD3PROJc1UlGJtc" 
+                  src={profilePic} 
                   alt="Swastik Sinha" 
                   className="w-full h-full object-cover transition-transform duration-700 scale-100 group-hover:scale-110 transform-gpu"
                 />
