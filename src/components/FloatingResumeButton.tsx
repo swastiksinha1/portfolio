@@ -2,7 +2,8 @@
 export default function FloatingResumeButton() {
   return (
     <a 
-      href="https://drive.google.com/file/d/1eNFUlBLJz65jwaf79vPV7SqhA1j_PSvF/view?usp=sharing" 
+      href="https://drive.google.com/uc?export=download&id=1eNFUlBLJz65jwaf79vPV7SqhA1j_PSvF" 
+      download="Swastik_Sinha_Resume.pdf"
       target="_blank" 
       rel="noreferrer"
       className="fixed bottom-6 right-6 md:bottom-10 md:right-10 z-50 group flex items-center justify-center animate-bounce-slow"
