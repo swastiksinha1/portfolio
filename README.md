@@ -1,4 +1,4 @@
-# 🚀 Developer Portfolio
+# 🚀My Portfolio
 
 A modern, responsive, and highly interactive developer portfolio built with React, TypeScript, Vite, and Tailwind CSS. This project showcases my personal projects, professional experience, skills, and open-source contributions.
 
